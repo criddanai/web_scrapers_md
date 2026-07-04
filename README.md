@@ -2,4 +2,57 @@
 
 run --> python main_urls.py
 
-1ai-docs-rag/2│3├── .env4├── requirements.txt5├── README.md6│7├── input_urls.txt8│9├── main.py10├── main_urls.py11│12├── build_vectors.py13├── chat.py14│15├── core/16│   ├── __init__.py17│   │18│   ├── crawler.py19│   ├── fetcher.py20│   ├── extractor.py21│   ├── cleaner.py22│   ├── exporter.py23│   │24│   ├── book_builder.py25│   └── chunker.py26│27├── output/28│   │29│   ├── urls.txt30│   │31│   ├── md/32│   │   ├── docs_nxlog_windows-event-log.md33│   │   ├── docs_nxlog_gelf.md34│   │   ├── docs_nxlog_language.md35│   │   ├── graylog_opensearch.md36│   │   ├── graylog_configuration.md37│   │   ├── telegram_sendmessage.md38│   │   ├── securitylog_4625.md39│   │   ├── securitylog_4720.md40│   │   └── securitylog_1102.md41│   │42│   ├── books/43│   │   ├── book_001.md44│   │   └── book_002.md45│   │46│   └── chunks/47│       └── chunks.jsonl48│49├── vector_db/50│51└── logs/
+ai-docs-rag/
+│
+├── .env
+├── requirements.txt
+├── README.md
+│
+├── input_urls.txt
+│
+├── main.py
+├── main_urls.py
+│
+├── build_vectors.py
+├── chat.py
+│
+├── core/
+│   ├── __init__.py
+│   │
+│   ├── crawler.py
+│   ├── fetcher.py
+│   ├── extractor.py
+│   ├── cleaner.py
+│   ├── exporter.py
+│   │
+│   ├── book_builder.py
+│   └── chunker.py
+│
+├── output/
+│   │
+│   ├── urls.txt
+│   │
+│   ├── md/
+│   │   ├── docs_nxlog_windows-event-log.md
+│   │   ├── docs_nxlog_gelf.md
+│   │   ├── docs_nxlog_language.md
+│   │   ├── graylog_opensearch.md
+│   │   ├── graylog_configuration.md
+│   │   ├── telegram_sendmessage.md
+│   │   ├── securitylog_4625.md
+│   │   ├── securitylog_4720.md
+│   │   └── securitylog_1102.md
+│   │
+│   ├── books/
+│   │   ├── book_001.md
+│   │   └── book_002.md
+│   │
+│   └── chunks/
+│       └── chunks.jsonl
+│
+├── vector_db/
+│
+└── logs/
+
+
+
