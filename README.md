@@ -1,6 +1,7 @@
-# Structure Project
+# Project Structure
 
-run --> python main_urls.py
+run --> main_urls.py
+change input url --> input_urls.txt
 
 ai-docs-rag/
 │
